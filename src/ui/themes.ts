@@ -289,10 +289,10 @@ export const THEMES: AppTheme[] = [
       id: "gruvbox",
       label: "Gruvbox",
       appearance: "dark",
-      // bg0 hard
-      background: "#1d2021",
-      // bg1
-      panel: "#3c3836",
+      // bg0
+      background: "#282828",
+      // bg0
+      panel: "#282828",
       // bg2
       panelAlt: "#504945",
       // bg3
