@@ -284,6 +284,75 @@ export const THEMES: AppTheme[] = [
       punctuation: "#a17d69",
     },
   ),
+  withLazySyntaxStyle(
+    {
+      id: "gruvbox",
+      label: "Gruvbox",
+      appearance: "dark",
+      // bg0 hard
+      background: "#1d2021",
+      // bg1
+      panel: "#3c3836",
+      // bg2
+      panelAlt: "#504945",
+      // bg3
+      border: "#665c54",
+      // yellow (bright)
+      accent: "#fabd2f",
+      // bg4
+      accentMuted: "#7c6f64",
+      // fg1
+      text: "#ebdbb2",
+      // fg4
+      muted: "#a89984",
+      // aqua/green tinted bg for added lines
+      addedBg: "#1e2c1e",
+      // red tinted bg for removed lines
+      removedBg: "#2c1e1e",
+      // bg0 hard for context
+      contextBg: "#1d2021",
+      // slightly brighter added/removed for content cells (split view)
+      addedContentBg: "#2a3b28",
+      removedContentBg: "#3b2828",
+      contextContentBg: "#242424",
+      // bright green / bright red for +/- signs
+      addedSignColor: "#b8bb26",
+      removedSignColor: "#fb4934",
+      // bg0
+      lineNumberBg: "#282828",
+      // bg4
+      lineNumberFg: "#7c6f64",
+      // bg3 for selected hunk highlight
+      selectedHunk: "#504945",
+      // file status badges
+      badgeAdded: "#b8bb26",
+      badgeRemoved: "#fb4934",
+      badgeNeutral: "#a89984",
+      // sidebar file-type indicators
+      fileNew: "#b8bb26",
+      fileDeleted: "#fb4934",
+      fileRenamed: "#fabd2f",
+      fileModified: "#83a598",
+      fileUntracked: "#8ec07c",
+      // agent note colours (purple-ish to stay distinct from diff colours)
+      noteBorder: "#d3869b",
+      noteBackground: "#32283c",
+      noteTitleBackground: "#4a3550",
+      noteTitleText: "#f9f5ff",
+    },
+    {
+      // Gruvbox syntax palette
+      default: "#ebdbb2",
+      keyword: "#fb4934",
+      string: "#b8bb26",
+      comment: "#928374",
+      number: "#d3869b",
+      function: "#fabd2f",
+      property: "#83a598",
+      type: "#8ec07c",
+      punctuation: "#a89984",
+    },
+  ),
 ];
 
 /** Resolve a named theme or fall back to Hunk's explicit built-in default. */
